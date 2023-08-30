@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header {
@@ -38,7 +38,7 @@ ul {
     justify-content: space-between;
     background-color: #1f2937;
     padding: 100px 150px;
-    gap: 150px;
+    gap: 100px;
 }
 
 .one-left {
@@ -77,12 +77,14 @@ ul {
 .image-title {
     min-width: 600px;
     max-height: 350px;
-}
+    border-radius: 12px;
+}  
 
 .container-two {
     display: flex;
     flex-direction: column;
-    background-color: white
+    background-color: white;
+     padding: 0px 225px;
 }
 
 .title-two {
@@ -92,7 +94,130 @@ ul {
     font-size: 36px;
     color: black;
     font-weight: 900;
+    padding: 40px 0px ;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 100px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 12px;
+    border-color:#3882F6;
+    border-style: solid;
+}  
+
+.one,
+.two,
+.three,
+.four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext-image {
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container-three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0px 225px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding-top: 100px;
+}
+
+.author {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+    padding-bottom: 100px;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 100px 150px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+    background-color:#3882F6;
+    border-radius: 12px;
+    padding: 50px 125px;
+}
+
+.box-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
 
 
 }
+
+.box-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+}
+
+
+.box-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.box-right {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-bottom {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #3882F6;
+    color: #f9faf8;
+    padding: 10px 40px;
+    border-radius: 12px;
+    border-style: solid;
+    border-color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    background-color: #1f2937;
+}
+
+.footer-text {
+    font-size: 18px;
+    color: white;
+    padding: 50px 0px;
+}
+
+
+
 
