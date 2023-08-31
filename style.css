@@ -80,7 +80,7 @@ ul {
 }
 
 .image-title {
-    min-width: 600px;
+    max-width: 600px;
     max-height: 350px;
     border-radius: 12px;
 }  
