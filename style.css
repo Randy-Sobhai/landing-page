@@ -26,11 +26,15 @@ body {
 ul {
     display: flex;
     font-size: 18px;
-    color: #e5e7eb;
     list-style: none;
-    text-decoration: none;
     gap: 20px;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+
 }
 
 .content {
