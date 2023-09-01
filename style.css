@@ -46,8 +46,8 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
-    padding: 100px 150px;
-    gap: 100px;
+    padding: 75px 150px;
+    gap: 75px;
 }
 
 .one-left {
@@ -55,6 +55,7 @@ a {
     flex-direction: column;
     align-items: start;
     justify-content: center;
+    
 }
 
 .title-one {
@@ -79,8 +80,8 @@ a {
 }
 .one-right {
     display: flex;
-    justify-content: end;
     align-items: center;
+    
 }
 
 .image-title {
@@ -93,7 +94,6 @@ a {
     display: flex;
     flex-direction: column;
     background-color: white;
-     padding: 0px 225px;
 }
 
 .title-two {
@@ -108,9 +108,10 @@ a {
 
 .images {
     display: flex;
-    justify-content: center;
-    gap: 25px;
+    justify-content:center;
+    flex-wrap: wrap;
     padding-bottom: 100px;
+    gap: 25px;
 }
 
 .image {
@@ -135,6 +136,7 @@ a {
     color: grey;
     text-align: center;
     padding-top: 10px;
+    width: 200px;
 }
 
 .container-three {
